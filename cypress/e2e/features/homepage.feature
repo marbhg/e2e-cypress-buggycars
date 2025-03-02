@@ -9,7 +9,7 @@ Feature: Open Buggy Cars
         And the user fills in the login "mar@gmail.com"
         And the user fills in the first name "Maria"
         And the user fills in the last name "Lopez"
-        And the user fills in the password "Password123!"
-        And the user fills in the first confirm password "Password123!"
+        And the user fills in the password "Password123"
+        And the user fills in the confirm password "Password123"
         Then I give the register button 
        

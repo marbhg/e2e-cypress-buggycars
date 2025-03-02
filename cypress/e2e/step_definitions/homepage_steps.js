@@ -29,9 +29,8 @@ import {
     cy.get('[name="lastName"]').type(lastname);
   });
 
-  When("  the user fills in the password  {string}", (password) => {
-    console.log("Valor de confirm password:", password);
-    cy.get('[name="password"]').type(password); 
+  When("the user fills in the password {string}", (password) => {
+    cy.get('#password').type(password);
 });
 
 When("the user fills in the confirm password {string}", (confirmpassword) => {
